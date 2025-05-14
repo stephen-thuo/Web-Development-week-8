@@ -1,0 +1,82 @@
+body{
+    background: white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+
+
+}
+body.light {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  /* Dark Theme */
+  body.dark {
+    background-color: #aa1eb1;
+    color: #f0f0f0;
+  }
+
+header{
+    background: black;
+    padding: 20px;
+
+}
+section{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(44, 144, 177);
+    color: white;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  /* Button Hover Effect (CSS Transition) */
+  button:hover {
+    background-color: #b34b00;
+    transform: scale(1.1);
+  }
+  
+  /* Button Click Animation (CSS Keyframes) */
+  @keyframes bounce {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+  .bounce {
+    animation: bounce 0.5s;
+  }
+div{
+    background: pink;
+    margin: auto;
+    width: 400px;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+li{
+    display:inline-block;
+    margin-right: 20px;
+}
+
+}
+img{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+
+
+}
